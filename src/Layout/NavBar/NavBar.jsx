@@ -28,7 +28,7 @@ const NavBar = () => {
             <NavLink to="/contact-us" className={Hover}>Contact Us</NavLink>
             <button>Sign In</button>
             <NavLink to="/favorites" className={`${Hover} relative`}><FaHeart className='w-8 h-8'/>
-              <div className='w-4 h-4 flex-colo rounded-full text-xs bg-subMain text-white absolute -top-5 -right-1'></div>
+              <div className='w-4 h-4 flex-colo rounded-full text-xs bg-subMain text-white absolute -top-5 -right-1'>3</div>
             </NavLink>
           </div>
         </div>
