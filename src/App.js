@@ -1,12 +1,18 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
+import HomeScreen from "./Screens/HomeScreen/HomeScreen";
+import AboutUs from "./Screens/AboutUs/AboutUs";
+import ContactUs from "./Screens/ContactUs/ContactUs";
+import NoPage from "./Screens/NoPage/NoPage";
 
 function App() {
   return (
-    <div className="h-header bg-main w-full">
-      <h1 className="text-3xl text-star font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomeScreen/>} />
+      <Route path="/about-us" element={<AboutUs/>} />
+      <Route path="/contact-us" element={<ContactUs/>} />
+      <Route path="/*" element={<NoPage/>} />
+    </Routes>
   );
 }
 
