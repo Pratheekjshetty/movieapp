@@ -7,7 +7,7 @@ const NavBar = () => {
   const Hover =({isActive})=>(isActive ? 'text-subMain': hover)
   return (
     <>
-      <div className='bg-main shadow-md sticky top-0 z-20'>
+      <div className='bg-main shadow-md sticky top-0 z-20 mx-10'>
         <div className='container mx-auto py-6 px-2 lg:grid gap-10 grid-cols-7 justify-between items-center'>
           <div className='col-span-1 lg:block hidden'>
             <Link to="/">

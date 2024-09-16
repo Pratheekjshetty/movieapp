@@ -71,13 +71,14 @@ const Footer = () => {
   return (
     <div className='bg-dry py-4 bprder=t-2 border-black'>
       <div className='container mx-auto px-2'>
-        <div className='grid grid-cols-2 md:grid-cols-7 xl:grid-cols-12 gap-5 sm:gap-9 lg:gap-11 xl:gap-7 py-10 justify-between'>
+        <div className='grid grid-cols-2 md:grid-cols-7 xl:grid-cols-12 gap-5 sm:gap-9 lg:gap-11 xl:gap-7 py-10 ml-10 justify-between'> 
           <div className='pb-3.5 sm:pb-0 col-span-1 md:col-span-2 lg:col-span-3 pr-10'>
             <Link to="/">
               <img src={logo} alt="logo" width={70}/>
             </Link>
             <p className='leading-7 text-sm text-border mt-3'>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officia totam magni cupiditate, aperiam voluptatibus tempore, molestias hic excepturi dolore minima est impedit deleniti officiis sequi quo quibusdam asperiores! Natus. 
+              Welcome to Flickster, your gateway to endless entertainment with the latest movies and shows at your fingertips. Explore a world of cinematic experiences and enjoy 
+              instant streaming from any device. Bringing blockbuster hits and hidden gems directly to your screen. Our mission is to make movie streaming convenient, immersive, and fun for everyone.
             </p>
           </div>
           {Links.map((link, index)=> (
