@@ -2,8 +2,8 @@ import movie1 from '../../Assets/Movie/TheFlash.jpg'
 import movie2 from '../../Assets/Movie/AquamanAndTheLostKingdom.jpg'
 import movie3 from '../../Assets/Movie/AntManAndTheWaspQuantumania.jpg'
 import movie4 from '../../Assets/Movie/TheMarvels.jpg'
-import movie5 from '../../Assets/TheDarkKnightRises.jpeg'
-import movie6 from '../../Assets/ManOfSteel.jpeg'
+import movie5 from '../../Assets/Movie/BlueBeetle.jpg'
+import movie6 from '../../Assets/Movie/GuardianOfTheGalaxy.jpg'
 
 export const Movies =[
     {
@@ -59,29 +59,29 @@ export const Movies =[
         reviews:25,
     },
     {
-        name:'TheDarkKnightRises',
+        name:'BlueBeetle',
         desc:'',
-        titleImage:'TheDarkKnightRises.jpeg',
+        titleImage:'BlueBeetle.jpg',
         image:movie5,
         category:'Action',
         language:'English',
-        year:'2012',
-        time:'2h44m',
+        year:'2023',
+        time:'2h07m',
         video:'',
-        rate:8.4,
+        rate:5.9,
         reviews:25,
     },
     {
-        name:'ManOfSteel',
+        name:'GuardianOfTheGalaxy',
         desc:'',
-        titleImage:'ManOfSteel.jpeg',
+        titleImage:'GuardianOfTheGalaxy.jpg',
         image:movie6,
         category:'Action',
         language:'English',
-        year:'2013',
-        time:'2h23m',
+        year:'2023',
+        time:'2h29m',
         video:'',
-        rate:7.1,
+        rate:7.9,
         reviews:25,
     },
 ]
