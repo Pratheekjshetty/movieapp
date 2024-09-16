@@ -7,7 +7,7 @@ import movie6 from '../../Assets/Movie/GuardianOfTheGalaxy.jpg'
 
 export const Movies =[
     {
-        name:'TheFlash',
+        name:'The Flash',
         desc:'',
         titleImage:'TheFlash.jpg',
         image:movie1,
@@ -20,7 +20,7 @@ export const Movies =[
         reviews:25,
     },
     {
-        name:'AquamanAndTheLostKingdom',
+        name:'Aquaman and The Lost Kingdom',
         desc:'',
         titleImage:'AquamanAndTheLostKingdom.jpg',
         image:movie2,
@@ -33,7 +33,7 @@ export const Movies =[
         reviews:25,
     },
     {
-        name:'AntManAndTheWaspQuantumania',
+        name:'AntMan and The Wasp Quantumania',
         desc:'',
         titleImage:'AntManAndTheWaspQuantumania.jpg',
         image:movie3,
@@ -46,7 +46,7 @@ export const Movies =[
         reviews:25,
     },
     {
-        name:'TheMarvels',
+        name:'The Marvels',
         desc:'',
         titleImage:'TheMarvels.jpg',
         image:movie4,
@@ -59,7 +59,7 @@ export const Movies =[
         reviews:25,
     },
     {
-        name:'BlueBeetle',
+        name:'Blue Beetle',
         desc:'',
         titleImage:'BlueBeetle.jpg',
         image:movie5,
@@ -72,7 +72,7 @@ export const Movies =[
         reviews:25,
     },
     {
-        name:'GuardianOfTheGalaxy',
+        name:'Guardian of The Galaxy Vol 3',
         desc:'',
         titleImage:'GuardianOfTheGalaxy.jpg',
         image:movie6,
