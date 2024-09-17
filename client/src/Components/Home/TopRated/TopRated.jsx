@@ -16,8 +16,22 @@ const TopRated = () => {
     <div className='my-16'>
       <Titles title="Top Rated" Icon={BsBookmarkStarFill}/>
       <div className='mt-10'>
-        <Swiper navigation={{nextEl,prevEl}} slidesPerView={4} spaceBetween={40} 
-        autoplay={true} speed={1000} loop={true} modules={[Navigation,Autoplay]}>
+        <Swiper navigation={{nextEl,prevEl}} spaceBetween={40} 
+        autoplay={true} speed={1000} loop={true} modules={[Navigation,Autoplay]}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1280: {
+            slidesPerView: 4,
+          },
+          1920: {
+            slidesPerView: 5,
+          }
+        }}>
           {
             PopulerMovie.map((movie,index)=>(
               <SwiperSlide key={index}>

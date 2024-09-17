@@ -12,6 +12,14 @@ import pmovie5 from '../../Assets/DC/TheFlash.jpeg'
 import pmovie6 from '../../Assets/Marvel/AntManAndTheWaspQuantumania.jpeg'
 import pmovie7 from '../../Assets/DC/ShazamFuryOfTheGods.jpeg'
 import pmovie8 from '../../Assets/Marvel/BlackPantherWakandaForever.jpeg'
+import pmovie9 from '../../Assets/DC/BlackAdam.jpeg'
+import pmovie10 from '../../Assets/Marvel/ThorLoveAndThunder.jpeg'
+import pmovie11 from '../../Assets/DC/TheBatman.jpeg'
+import pmovie12 from '../../Assets/Marvel/DoctorStrangeInTheMultiverseOfMadness.jpeg'
+import pmovie13 from '../../Assets/DC/ZackSnydersJusticeLeague.jpeg'
+import pmovie14 from '../../Assets/Marvel/SpiderManNoWayHome.jpeg'
+import pmovie15 from '../../Assets/DC/WonderWoman1984.jpeg'
+import pmovie16 from '../../Assets/Marvel/Eternals.jpeg'
 
 export const Movies =[
     {
@@ -198,5 +206,109 @@ export const PopulerMovie =[
         video:'',
         rate:3.35,
         reviews:25,
-    },   
+    }, 
+    {
+        name:'Black Adam',
+        desc:'',
+        titleImage:'BlackAdam.jpeg',
+        image:pmovie9,
+        category:'Action/Adventure',
+        language:'English',
+        year:'2022',
+        time:'2h05m',
+        video:'',
+        rate:3.1,
+        reviews:25,
+    },
+    {
+        name:'Thor Love and Thunder',
+        desc:'',
+        titleImage:'ThorLoveAndThunder.jpeg',
+        image:pmovie10,
+        category:'Action/Adventure',
+        language:'English',
+        year:'2022',
+        time:'1h59m',
+        video:'',
+        rate:3.1,
+        reviews:25,
+    }, 
+    {
+        name:'The Batman',
+        desc:'',
+        titleImage:'TheBatman.jpeg',
+        image:pmovie11,
+        category:'Action/Crime',
+        language:'English',
+        year:'2022',
+        time:'2h56m',
+        video:'',
+        rate:3.9,
+        reviews:25,
+    },
+    {
+        name:'Doctor Strange in the Multiverse of Madness',
+        desc:'',
+        titleImage:'DoctorStrangeInTheMultiverseOfMadness.jpeg',
+        image:pmovie12,
+        category:'Fantasy/Horror',
+        language:'English',
+        year:'2022',
+        time:'2h06m',
+        video:'',
+        rate:3.45,
+        reviews:25,
+    },  
+    {
+        name:`Zack Snyder's Justice League`,
+        desc:'',
+        titleImage:'ZackSnydersJusticeLeague.jpeg',
+        image:pmovie13,
+        category:'Action/Adventure',
+        language:'English',
+        year:'2021',
+        time:'4h02m',
+        video:'',
+        rate:3.45,
+        reviews:25,
+    },
+    {
+        name:'Spider Man No Way Home',
+        desc:'',
+        titleImage:'SpiderManNoWayHome.jpeg',
+        image:pmovie14,
+        category:'Action/Fantasy',
+        language:'English',
+        year:'2021',
+        time:'2h28m',
+        video:'',
+        rate:4.1,
+        reviews:25,
+    }, 
+    {
+        name:'Wonder Woman 1984',
+        desc:'',
+        titleImage:'WonderWoman1984.jpeg',
+        image:pmovie15,
+        category:'Action/Fantasy',
+        language:'English',
+        year:'2020',
+        time:'2h31m',
+        video:'',
+        rate:2.7,
+        reviews:25,
+    },
+    {
+        name:'Eternals',
+        desc:'',
+        titleImage:'Eternals.jpeg',
+        image:pmovie16,
+        category:'Action/Fantasy',
+        language:'English',
+        year:'2021',
+        time:'2h37m',
+        video:'',
+        rate:3.15,
+        reviews:25,
+    }, 
 ]
