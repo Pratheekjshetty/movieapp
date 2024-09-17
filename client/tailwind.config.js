@@ -13,6 +13,7 @@ module.exports = {
         h1:'2.6rem',
       },
       screens:{
+        sm:'768px',
         xs:'475px',
       },
       colors:{
