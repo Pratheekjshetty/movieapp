@@ -4,8 +4,8 @@ import HomeScreen from "./Screens/HomeScreen/HomeScreen";
 import AboutUs from "./Screens/AboutUs/AboutUs";
 import ContactUs from "./Screens/ContactUs/ContactUs";
 import Movies from "./Screens/Movies/Movies";
+import SingleMovie from "./Screens/SingleMovie/SingleMovie";
 import NoPage from "./Screens/NoPage/NoPage";
-
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Route path="/about-us" element={<AboutUs/>} />
       <Route path="/contact-us" element={<ContactUs/>} />
       <Route path="/movies" element={<Movies/>} />
+      <Route path="/movie/:id" element={<SingleMovie/>} />
       <Route path="/favorites" element={<Movies/>} />
       <Route path="/*" element={<NoPage/>} />
     </Routes>
