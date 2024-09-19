@@ -38,6 +38,13 @@ import cast5 from '../../Assets/Casts/DolphLundgren.jpg'
 import cast6 from '../../Assets/Casts/BenAffleck.jpg'
 import cast7 from '../../Assets/Casts/RandallPark.jpg'
 import cast8 from '../../Assets/Casts/JaniZhao.jpg'
+import cast9 from '../../Assets/Casts/EzraMiller.jpg'
+import cast10 from '../../Assets/Casts/KierseyClemons.jpg'
+import cast11 from '../../Assets/Casts/MichaelKeaton.jpg'
+import cast12 from '../../Assets/Casts/SashaCalle.jpg'
+import cast13 from '../../Assets/Casts/RonLivingston.jpg'
+import cast14 from '../../Assets/Casts/MaribelVerdú.jpg'
+import cast15 from '../../Assets/Casts/AntjeTraue.jpg'
 
 export const Movies =[
     {
@@ -475,8 +482,16 @@ export const UsersData =[
         ],
     },
     {
-        movie: 'The Marvels',
+        movie: 'The Flash',
         cast: [
+            { name: 'Ezra Miller/Flash', image: cast9 },
+            { name: 'Kiersey Clemons/Iris West', image: cast10 },
+            { name: 'Ben Affleck/Batman', image: cast6 },
+            { name: 'Michael Keaton/Batman', image: cast11 },
+            { name: 'Sasha Calle/Supergirl', image: cast12 },
+            { name: 'Ron Livingston/Henry Allen', image: cast13 },
+            { name: 'Maribel Verdú/Nora Allen', image: cast14 },
+            { name: 'Antje Traue/Faora', image: cast15 },
         ],
     },
 ]
