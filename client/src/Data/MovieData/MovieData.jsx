@@ -30,12 +30,20 @@ import pmovie13 from '../../Assets/DC/ZackSnydersJusticeLeague.jpeg'
 import pmovie14 from '../../Assets/Marvel/SpiderManNoWayHome.jpeg'
 import pmovie15 from '../../Assets/DC/WonderWoman1984.jpeg'
 import pmovie16 from '../../Assets/Marvel/Eternals.jpeg'
+import cast1 from '../../Assets/Casts/JasonMomoa.jpg'
+import cast2 from '../../Assets/Casts/AmberHeard.jpg'
+import cast3 from '../../Assets/Casts/PatrickWilson.jpg'
+import cast4 from '../../Assets/Casts/NicoleKidman.jpg'
+import cast5 from '../../Assets/Casts/DolphLundgren.jpg'
+import cast6 from '../../Assets/Casts/BenAffleck.jpg'
+import cast7 from '../../Assets/Casts/RandallPark.jpg'
+import cast8 from '../../Assets/Casts/JaniZhao.jpg'
 
 export const Movies =[
     {
         name:'Aquaman and The Lost Kingdom',
         desc:'',
-        titleImage:'AquamanAndTheLostKingdom.jpg',
+        titleImage:pmovie1,
         image:movie1,
         category:'Action/Fantasy',
         language:'English',
@@ -48,7 +56,7 @@ export const Movies =[
     {
         name:'The Marvels',
         desc:'',
-        titleImage:'TheMarvels.jpg',
+        titleImage:pmovie2,
         image:movie2,
         category:'Action/Adventure',
         language:'English',
@@ -61,7 +69,7 @@ export const Movies =[
     {
         name:'Blue Beetle',
         desc:'',
-        titleImage:'BlueBeetle.jpg',
+        titleImage:pmovie3,
         image:movie3,
         category:'Action/Adventure',
         language:'English',
@@ -74,7 +82,7 @@ export const Movies =[
     {
         name:'Guardian of The Galaxy Vol 3',
         desc:'',
-        titleImage:'GuardianOfTheGalaxy.jpg',
+        titleImage:pmovie4,
         image:movie4,
         category:'Action/Adventure',
         language:'English',
@@ -87,7 +95,7 @@ export const Movies =[
     {
         name:'The Flash',
         desc:'',
-        titleImage:'TheFlash.jpg',
+        titleImage:pmovie5,
         image:movie5,
         category:'Action/Sci-fi',
         language:'English',
@@ -100,7 +108,7 @@ export const Movies =[
     {
         name:'Ant-Man and The Wasp Quantumania',
         desc:'',
-        titleImage:'AntManAndTheWaspQuantumania.jpg',
+        titleImage:pmovie6,
         image:movie6,
         category:'Action/Adventure',
         language:'English',
@@ -113,7 +121,7 @@ export const Movies =[
     {
         name:'Shazam! Fury of The Gods',
         desc:'',
-        titleImage:'ShazamFuryOfTheGods.jpg',
+        titleImage:pmovie7,
         image:movie7,
         category:'Action/Comedy',
         language:'English',
@@ -126,7 +134,7 @@ export const Movies =[
     {
         name:'Black Panther Wakanda Forever',
         desc:'',
-        titleImage:'BlackPantherWakandaForever.jpg',
+        titleImage:pmovie8,
         image:movie8,
         category:'Action/Sci-fi',
         language:'English',
@@ -139,7 +147,7 @@ export const Movies =[
     {
         name:'Black Adam',
         desc:'',
-        titleImage:'BlackAdam.jpg',
+        titleImage:pmovie9,
         image:movie9,
         category:'Action/Adventure',
         language:'English',
@@ -152,7 +160,7 @@ export const Movies =[
     {
         name:'Thor Love and Thunder',
         desc:'',
-        titleImage:'ThorLoveAndThunder.jpg',
+        titleImage:pmovie10,
         image:movie10,
         category:'Action/Adventure',
         language:'English',
@@ -165,7 +173,7 @@ export const Movies =[
     {
         name:'The Batman',
         desc:'',
-        titleImage:'TheBatman.jpg',
+        titleImage:pmovie11,
         image:movie11,
         category:'Action/Crime',
         language:'English',
@@ -178,7 +186,7 @@ export const Movies =[
     {
         name:'Doctor Strange in the Multiverse of Madness',
         desc:'',
-        titleImage:'DoctorStrangeInTheMultiverseOfMadness.jpg',
+        titleImage:pmovie12,
         image:movie12,
         category:'Fantasy/Horror',
         language:'English',
@@ -191,7 +199,7 @@ export const Movies =[
     {
         name:`Zack Snyder's Justice League`,
         desc:'',
-        titleImage:'ZackSnydersJusticeLeague.jpg',
+        titleImage:pmovie13,
         image:movie13,
         category:'Action/Adventure',
         language:'English',
@@ -204,7 +212,7 @@ export const Movies =[
     {
         name:'Spider Man No Way Home',
         desc:'',
-        titleImage:'SpiderManNoWayHome.jpg',
+        titleImage:pmovie14,
         image:movie14,
         category:'Action/Fantasy',
         language:'English',
@@ -217,7 +225,7 @@ export const Movies =[
     {
         name:'Wonder Woman 1984',
         desc:'',
-        titleImage:'WonderWoman1984.jpg',
+        titleImage:pmovie15,
         image:movie15,
         category:'Action/Fantasy',
         language:'English',
@@ -230,7 +238,7 @@ export const Movies =[
     {
         name:'Eternals',
         desc:'',
-        titleImage:'Eternals.jpg',
+        titleImage:pmovie16,
         image:movie16,
         category:'Action/Fantasy',
         language:'English',
@@ -451,4 +459,24 @@ export const PopulerMovie =[
         rate:3.15,
         reviews:25,
     }, 
+]
+export const UsersData =[
+    {
+        movie: 'Aquaman and The Lost Kingdom',
+        cast: [
+            { name: 'Jason Momoa/Aquaman', image: cast1 },
+            { name: 'Amber Heard/Mera', image: cast2 },
+            { name: 'Patrick Wilson/Ocean Master', image: cast3 },
+            { name: 'Nicole Kidman/Atlanna', image: cast4 },
+            { name: 'Dolph Lundgren/Nereus', image: cast5 },
+            { name: 'Ben Affleck/Batman', image: cast6 },
+            { name: 'Randall Park/Dr.Stephen Shin', image: cast7 },
+            { name: 'Jani Zhao/Stingray', image: cast8 },
+        ],
+    },
+    {
+        movie: 'The Marvels',
+        cast: [
+        ],
+    },
 ]

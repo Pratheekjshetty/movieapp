@@ -3,6 +3,7 @@ import Layout from '../../Layout/Layout'
 import { useParams } from 'react-router-dom'
 import { Movies } from '../../Data/MovieData/MovieData'
 import MovieInfo from '../../Components/Single/MovieInfo/MovieInfo'
+import MovieCasts from '../../Components/Single/MovieCasts/MovieCasts'
 
 const SingleMovie = () => {
   const {id} = useParams()
@@ -10,6 +11,9 @@ const SingleMovie = () => {
   return (
     <Layout>
       <MovieInfo movie={movie}/>
+      <div className='container mx-auto min-h-screen px-2 my-6'>
+        <MovieCasts selectedMovie={movie.name}/>
+      </div>
     </Layout>
   )
 }
