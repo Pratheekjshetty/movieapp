@@ -14,6 +14,7 @@ import movie13 from '../../Assets/Movie/ZackSnydersJusticeLeague.jpg'
 import movie14 from '../../Assets/Movie/SpiderManNoWayHome.jpg'
 import movie15 from '../../Assets/Movie/WonderWoman1984.jpg'
 import movie16 from '../../Assets/Movie/Eternals.jpg'
+
 import pmovie1 from '../../Assets/DC/AquamanAndTheLostKingdom.jpeg'
 import pmovie2 from '../../Assets/Marvel/TheMarvels.jpeg'
 import pmovie3 from '../../Assets/DC/BlueBeetle.jpeg'
@@ -30,6 +31,7 @@ import pmovie13 from '../../Assets/DC/ZackSnydersJusticeLeague.jpeg'
 import pmovie14 from '../../Assets/Marvel/SpiderManNoWayHome.jpeg'
 import pmovie15 from '../../Assets/DC/WonderWoman1984.jpeg'
 import pmovie16 from '../../Assets/Marvel/Eternals.jpeg'
+
 import cast1 from '../../Assets/Casts/JasonMomoa.jpg'
 import cast2 from '../../Assets/Casts/AmberHeard.jpg'
 import cast3 from '../../Assets/Casts/PatrickWilson.jpg'
@@ -69,6 +71,30 @@ import cast36 from '../../Assets/Casts/PierceBrosnan.jpg'
 import cast37 from '../../Assets/Casts/AldisHodge.jpg'
 import cast38 from '../../Assets/Casts/HenryCavill.jpg'
 import cast39 from '../../Assets/Casts/BodhiSabongui.jpg'
+import cast40 from '../../Assets/Casts/BrieLarson.jpg'
+import cast41 from '../../Assets/Casts/ParkSeo-Joon.jpg'
+import cast42 from '../../Assets/Casts/TeyonahParris.jpg'
+import cast43 from '../../Assets/Casts/ImanVellani.jpg'
+import cast44 from '../../Assets/Casts/LashanaLynch.jpg'
+import cast45 from '../../Assets/Casts/ZaweAshton.jpg'
+import cast46 from '../../Assets/Casts/TessaThompson.jpg'
+import cast47 from '../../Assets/Casts/SamuelLJackson.jpg'
+import cast48 from '../../Assets/Casts/ChrisPratt.jpg'
+import cast49 from '../../Assets/Casts/ZoeSaldana.jpg'
+import cast50 from '../../Assets/Casts/PomKlementieff.jpg'
+import cast51 from '../../Assets/Casts/KarenGillan.jpg'
+import cast52 from '../../Assets/Casts/SeanGunn.jpg'
+import cast53 from '../../Assets/Casts/DaveBautista.jpg'
+import cast54 from '../../Assets/Casts/ChrisHemsworth.jpg'
+import cast55 from '../../Assets/Casts/WillPoulter.jpg'
+import cast56 from '../../Assets/Casts/PaulRudd.jpg'
+import cast57 from '../../Assets/Casts/EvangelineLilly.jpg'
+import cast58 from '../../Assets/Casts/KathrynNewton.jpg'
+import cast59 from '../../Assets/Casts/MichaelDouglas.jpg'
+import cast60 from '../../Assets/Casts/MichellePfeiffer.jpg'
+import cast61 from '../../Assets/Casts/KatyM.OBrian.jpg'
+import cast62 from '../../Assets/Casts/WilliamJacksonHarper.jpg'
+import cast63 from '../../Assets/Casts/TomHiddleston.jpg'
 
 export const Movies =[
     {
@@ -505,6 +531,19 @@ export const UsersData =[
         ],
     },
     {
+        movie: 'The Marvels',
+        cast: [
+            { name: 'Brie Larson/Carol Danvers', image: cast40 },
+            { name: 'Park Seo-Joon/Prince Yan', image: cast41 },
+            { name: 'Teyonah Parris/Monica Rambeau', image: cast42 },
+            { name: 'Iman Vellani/Ms.Marvel', image: cast43 },
+            { name: 'Lashana Lynch/Maria Rambeau', image: cast44 },
+            { name: 'Zawe Ashton/Dar-Benn', image: cast45 },
+            { name: 'Tessa Thompson/Valkyrie', image: cast46 },
+            { name: 'Samuel.L.Jackson/Nick Fury', image: cast47 },
+        ],
+    },
+    {
         movie: 'Blue Beetle',
         cast: [
             { name: 'Xolo Maridueña/Blue Beetle', image: cast16 },
@@ -518,6 +557,19 @@ export const UsersData =[
         ],
     },
     {
+        movie: 'Guardian of The Galaxy Vol 3',
+        cast: [
+            { name: 'Chris Pratt/Star-Lord', image: cast48 },
+            { name: 'Zoe Saldana/Gamora', image: cast49 },
+            { name: 'Pom Klementieff/Mantis', image: cast50 },
+            { name: 'Karen Gillan/Nebula', image: cast51 },
+            { name: 'Sean Gunn/Rocket Raccoon', image: cast52 },
+            { name: 'Dave Bautista/Drax the Destroyer', image: cast53 },
+            { name: 'Chris Hemsworth/Thor', image: cast54 },
+            { name: 'Will Poulter/Adam Warlock', image: cast55 },
+        ],
+    },
+    {
         movie: 'The Flash',
         cast: [
             { name: 'Ezra Miller/Flash', image: cast9 },
@@ -528,6 +580,19 @@ export const UsersData =[
             { name: 'Ron Livingston/Henry Allen', image: cast13 },
             { name: 'Maribel Verdú/Nora Allen', image: cast14 },
             { name: 'Antje Traue/Faora', image: cast15 },
+        ],
+    },
+    {
+        movie: 'Ant-Man and The Wasp Quantumania',
+        cast: [
+            { name: 'Paul Rudd/Ant-Man', image: cast56 },
+            { name: 'Evangeline Lilly/Wasp', image: cast57 },
+            { name: 'Kathryn Newton/Cassie Lang', image: cast58 },
+            { name: 'Michael Douglas/Ant-Man', image: cast59 },
+            { name: 'Michelle Pfeiffer/Wasp', image: cast60 },
+            { name: 'KatyM.OBrian/Jentorra', image: cast61 },
+            { name: 'WilliamJacksonHarper/Quaz', image: cast62 },
+            { name: 'Tom Hiddleston/Loki', image: cast63 },
         ],
     },
     {
