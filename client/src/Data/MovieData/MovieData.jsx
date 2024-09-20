@@ -45,6 +45,30 @@ import cast12 from '../../Assets/Casts/SashaCalle.jpg'
 import cast13 from '../../Assets/Casts/RonLivingston.jpg'
 import cast14 from '../../Assets/Casts/MaribelVerdú.jpg'
 import cast15 from '../../Assets/Casts/AntjeTraue.jpg'
+import cast16 from '../../Assets/Casts/XoloMaridueña.jpg'
+import cast17 from '../../Assets/Casts/BrunaMarquezine.jpg'
+import cast18 from '../../Assets/Casts/BeckyG.jpg'
+import cast19 from '../../Assets/Casts/BelissaEscobedo.jpg'
+import cast20 from '../../Assets/Casts/AdrianaBarraza.jpg'
+import cast21 from '../../Assets/Casts/DamiánAlcázar.jpg'
+import cast22 from '../../Assets/Casts/GeorgeLopez.jpg'
+import cast23 from '../../Assets/Casts/SusanSarandon.jpg'
+import cast24 from '../../Assets/Casts/ZacharyLevi.jpg'
+import cast25 from '../../Assets/Casts/AdamBrody.jpg'
+import cast26 from '../../Assets/Casts/RossButler.jpg'
+import cast27 from '../../Assets/Casts/DJCotrona.jpg'
+import cast28 from '../../Assets/Casts/GraceCarolineCurrey.jpg'
+import cast29 from '../../Assets/Casts/MeaganGood.jpg'
+import cast30 from '../../Assets/Casts/GalGadot.jpg'
+import cast31 from '../../Assets/Casts/HelenMirren.jpg'
+import cast32 from '../../Assets/Casts/DwayneJohnson.jpg'
+import cast33 from '../../Assets/Casts/SarahShahi.jpg'
+import cast34 from '../../Assets/Casts/NoahCentineo.jpg'
+import cast35 from '../../Assets/Casts/QuintessaSwindell.jpg'
+import cast36 from '../../Assets/Casts/PierceBrosnan.jpg'
+import cast37 from '../../Assets/Casts/AldisHodge.jpg'
+import cast38 from '../../Assets/Casts/HenryCavill.jpg'
+import cast39 from '../../Assets/Casts/BodhiSabongui.jpg'
 
 export const Movies =[
     {
@@ -256,7 +280,6 @@ export const Movies =[
         reviews:25,
     },
 ]
-
 export const PopulerMovie =[
     {
         name:'Aquaman and The Lost Kingdom',
@@ -482,6 +505,19 @@ export const UsersData =[
         ],
     },
     {
+        movie: 'Blue Beetle',
+        cast: [
+            { name: 'Xolo Maridueña/Blue Beetle', image: cast16 },
+            { name: 'Bruna Marquezine/Jenny Kord', image: cast17 },
+            { name: 'Becky G/Khaji-Da', image: cast18 },
+            { name: 'Belissa Escobedo/Milagro Reyes', image: cast19 },
+            { name: 'Adriana Barraza/Nana Reyes', image: cast20 },
+            { name: 'Damián Alcázar/Alberto Reyes', image: cast21 },
+            { name: 'George Lopez/Rudy Reyes', image: cast22 },
+            { name: 'Susan Sarandon/Victoria Kord', image: cast23 },
+        ],
+    },
+    {
         movie: 'The Flash',
         cast: [
             { name: 'Ezra Miller/Flash', image: cast9 },
@@ -492,6 +528,32 @@ export const UsersData =[
             { name: 'Ron Livingston/Henry Allen', image: cast13 },
             { name: 'Maribel Verdú/Nora Allen', image: cast14 },
             { name: 'Antje Traue/Faora', image: cast15 },
+        ],
+    },
+    {
+        movie: 'Shazam! Fury of The Gods',
+        cast: [
+            { name: 'Zachary Levi/Shazam', image: cast24 },
+            { name: 'Adam Brody/Freddy Freeman', image: cast25 },
+            { name: 'Ross Butler/Eugene Choi', image: cast26 },
+            { name: 'D.J.Cotrona/Pedro Peña', image: cast27 },
+            { name: 'Grace Caroline Currey/Mary Bromfield', image: cast28 },
+            { name: 'Meagan Good/Darla Dudley', image: cast29 },
+            { name: 'Gal Gadot/WonDer Woman', image: cast30 },
+            { name: 'Helen Mirren/Hespera', image: cast31 },
+        ],
+    },
+    {
+        movie: 'Black Adam',
+        cast: [
+            { name: 'Dwayne Johnson/Black Adam', image: cast32 },
+            { name: 'Sarah Shahi/Isis', image: cast33 },
+            { name: 'Noah Centineo/Atom Smasher', image: cast34 },
+            { name: 'Quintessa Swindell/Cyclone', image: cast35 },
+            { name: 'Pierce Brosnan/Doctor Fate', image: cast36 },
+            { name: 'Aldis Hodge/Hawkman', image: cast37 },
+            { name: 'Henry Cavill/Superman', image: cast38 },
+            { name: 'Bodhi Sabongui/Amon Tomaz', image: cast39 },
         ],
     },
 ]

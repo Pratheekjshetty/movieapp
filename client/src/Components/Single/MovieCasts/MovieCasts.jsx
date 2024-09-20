@@ -31,7 +31,7 @@ const MovieCasts = ({ selectedMovie }) => {
           1280:{
             slidesPerView:5,
           },
-          1440:{ 
+          1590:{ 
             slidesPerView:6, 
           },
         }}>
