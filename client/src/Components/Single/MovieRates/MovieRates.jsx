@@ -64,8 +64,8 @@ const MovieRates = ({movie,selectedMovie }) => {
             {
               movieCasts.map((user,i)=>(
                 <div className='md:grid flex flex-col w-full grid-cols-12 gap-6 bg-dry p-4 border border-gray-800 rounded-lg'>
-                  <div className='col-span-2 bg-main hidden md:block'>
-                    <img src={`${user?user.image:'user.jpg'}`} alt="user.name" className='w-full h-full rounded-lg object-cover'/>
+                  <div className='col-span-2 bg-dry hidden md:block'>
+                    <img src={`${user?user.image:'user.jpg'}`} alt="user.name" className='w-full h-auto rounded-lg object-contain'/>
                   </div>
                   <div className='col-span-7 flex flex-col gap-2'>
                     <h2>{user?.fullname}</h2>

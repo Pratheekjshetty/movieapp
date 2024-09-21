@@ -11,12 +11,8 @@ const Promos = () => {
             Download your Movies & Watch Offline. <br/> Enjoy on Your Mobile
           </h1>
           <p className='text-text text-sm xl:text-base leading-6 xl:leading-8'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vitae eius non tempora quo, maiores, 
-            quam praesentium officiis sunt eos in exercitationem nesciunt dolorem minima iste reiciendis provident, facere sint.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vitae eius non tempora quo, maiores, 
-            quam praesentium officiis sunt eos in exercitationem nesciunt dolorem minima iste reiciendis provident, facere sint.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vitae eius non tempora quo, maiores, 
-            quam praesentium officiis sunt eos in exercitationem nesciunt dolorem minima iste reiciendis provident, facere sint.
+            The Flickster Movie Streaming app lets you explore a vast library of films, from timeless classics to the latest blockbusters. One of its key features is the ability to download movies for offline viewing, making it easy to watch anywhere, whether on a flight or during your commute. The user-friendly interface allows for seamless browsing, and personalized recommendations help you find new favorites.
+            You can create and manage watchlists, ensuring you never miss a film that catches your eye. Flickster also offers exclusive behind-the-scenes content and trailers, adding depth to your viewing experience. With options for subtitles and high-quality streaming, it’s tailored to your preferences. Join a community of movie lovers to share reviews and recommendations. With Flickster, your movie nights are just a click away!
           </p>
           <div className='flex gap-4 md:text-lg text-sm'>
             <div className='flex-colo bg-black text-subMain px-6 py-3 rounded-md font-bold'>
