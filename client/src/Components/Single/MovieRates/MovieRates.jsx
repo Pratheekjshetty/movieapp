@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import Titles from '../../Titles/Titles'
 import {BsBookmarkStarFill} from 'react-icons/bs'
 import { Message, Select } from '../../UsedInputs/UsedInputs'
+import {UsersData} from '../../../Data/MovieData/MovieData'
 import Stars from '../../Stars/Stars'
 
-const MovieRates = ({movie}) => {
+const MovieRates = ({movie,selectedMovie }) => {
+  const movieCasts = UsersData.find(movie => movie.movie === selectedMovie)?.cast || [];
   const Ratings =[
     {
       title:"0 - Poor",
@@ -54,6 +56,31 @@ const MovieRates = ({movie}) => {
           <Message label="Message" placeholder="Make it short and sweet......"/>
           {/* Submit */}
           <button className='bg-subMain text-white py-3 w-full flex-colo rounded'>Submin</button>
+        </div>
+        {/* Reviwers */}
+        <div className='col-span-3 flex flex-col gap-6'>
+          <h3 className='text-xl text-text font-semibold'>Reviews (56)</h3>
+          <div className='w-full flex flex-col bg-main gap-6 rounded-lg md:p-12 p-6 h-header overflow-y-scroll'>
+            {
+              movieCasts.map((user,i)=>(
+                <div className='md:grid flex flex-col w-full grid-cols-12 gap-6 bg-dry p-4 border border-gray-800 rounded-lg'>
+                  <div className='col-span-2 bg-main hidden md:block'>
+                    <img src={`${user?user.image:'user.jpg'}`} alt="user.name" className='w-full h-full rounded-lg object-cover'/>
+                  </div>
+                  <div className='col-span-7 flex flex-col gap-2'>
+                    <h2>{user?.fullname}</h2>
+                    <p className='text-xs leading-6 font-medium text-text'>
+                      {user?.message}
+                    </p>
+                  </div>
+                  {/* Rates */}
+                  <div className='col-span-3 flex-rows border-l border-border text-xs gap-1 text-star'>
+                    <Stars value={user?.rate}/>
+                  </div>
+                </div>
+              ))
+            }
+          </div>
         </div>
       </div>
     </div>

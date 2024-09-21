@@ -13,7 +13,7 @@ const SingleMovie = () => {
       <MovieInfo movie={movie}/>
       <div className='container mx-auto min-h-screen px-2 my-6'>
         <MovieCasts selectedMovie={movie.name}/>
-        <MovieRates movie={movie}/>
+        <MovieRates movie={movie} selectedMovie={movie.name}/>
       </div>
     </Layout>
   )
