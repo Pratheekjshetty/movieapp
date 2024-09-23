@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import {FaSearch, FaHeart} from 'react-icons/fa'
 import logo from '../../Assets/logo2.png'
+import {CgUser} from 'react-icons/cg'
 const NavBar = () => {
   const hover = "hover:text-subMain transitions text-white";
   const Hover =({isActive})=>(isActive ? 'text-subMain': hover)
@@ -26,7 +27,9 @@ const NavBar = () => {
             <NavLink to="/movies" className={Hover}>Movies</NavLink>
             <NavLink to="/about-us" className={Hover}>About Us</NavLink>
             <NavLink to="/contact-us" className={Hover}>Contact Us</NavLink>
-            <button>Sign In</button>
+            <NavLink to="/login" className={Hover}>
+              <CgUser className="w-8 h-8"/>
+            </NavLink>
             <NavLink to="/favorites" className={`${Hover} relative`}><FaHeart className='w-8 h-8'/>
               <div className='w-4 h-4 flex-colo rounded-full text-xs bg-subMain text-white absolute -top-5 -right-1'>3</div>
             </NavLink>

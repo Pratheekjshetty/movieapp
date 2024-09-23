@@ -31,7 +31,7 @@ const WatchPage = () => {
         {/* Watch Video */}
         {
           play ? (
-            <video controls className='w-full h-full rounded'>
+            <video controls autoPlay={play} className='w-full h-full rounded'>
               <source src={movie?.video} type="video/mp4" title={movie?.name}/>
             </video>
           ):(
