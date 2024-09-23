@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FiMail, FiMapPin, FiPhoneCall } from 'react-icons/fi'
 import Layout from '../../Layout/Layout'
 import Head from '../../Components/Head/Head'
 
 const ContactUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const ContactData =[
     {
       id:1,

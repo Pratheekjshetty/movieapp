@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Layout from '../../Layout/Layout'
 import Filters from '../../Components/Filters/Filters'
 import Movie from '../../Components/Movie/Movie'
@@ -6,6 +6,9 @@ import {PopulerMovie} from '../../Data/MovieData/MovieData'
 import {CgSpinner} from 'react-icons/cg'
 
 const MoviesPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const maxPage = 8
   const [page,setPage] = useState(maxPage)
   const HandleLoadingMore = () =>{

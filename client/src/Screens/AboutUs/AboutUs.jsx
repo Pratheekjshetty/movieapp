@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Layout from '../../Layout/Layout'
 import Head from '../../Components/Head/Head'
 import about from '../../Assets/About2.jpg'
 
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Layout>
       <div className='min-height-screen container mx-auto px-2 my-6'>
