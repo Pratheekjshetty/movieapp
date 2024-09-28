@@ -1,5 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import HomeScreen from "./Screens/HomeScreen/HomeScreen";
 import AboutUs from "./Screens/AboutUs/AboutUs";
 import ContactUs from "./Screens/ContactUs/ContactUs";
@@ -9,8 +11,10 @@ import WatchPage from "./Screens/WatchPage/WatchPage";
 import NoPage from "./Screens/NoPage/NoPage";
 import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
+import Profile from "./Screens/Dashbord/Profile/Profile";
 
 function App() {
+  Aos.init();
   return (
     <Routes>
       <Route path="/" element={<HomeScreen/>} />
@@ -22,6 +26,7 @@ function App() {
       <Route path="/favorites" element={<Movies/>} />
       <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
+      <Route path="/profile" element={<Profile/>}></Route>
       <Route path="/*" element={<NoPage/>} />
     </Routes>
   );
