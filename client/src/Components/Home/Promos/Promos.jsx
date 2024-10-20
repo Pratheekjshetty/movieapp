@@ -1,6 +1,7 @@
 import React from 'react'
 import {FiUser} from 'react-icons/fi'
 import mobile from '../../../Assets/mobile.png'
+import mobile1 from '../../../Assets/mobile1.png'
 
 const Promos = () => {
   return (
@@ -25,7 +26,7 @@ const Promos = () => {
         </div>
         <div className='flex gap-10 mx-5 my-10'>
           <img src={mobile} alt='Mobile app' className='w-20 xl:w-60 lg:w-50 md:w-40 sm:w-30 xs:w-25 object-contain'/>
-          <img src={mobile} alt='Mobile app' className='w-20 xl:w-60 lg:w-50 md:w-40 sm:w-30 xs:w-25 object-contain'/>
+          <img src={mobile1} alt='Mobile app' className='w-20 xl:w-60 lg:w-50 md:w-40 sm:w-30 xs:w-25 object-contain'/>
         </div>
       </div>
     </div>
