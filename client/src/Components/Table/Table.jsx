@@ -37,7 +37,7 @@ const Text ='text-sm text-left leading-6 whiltespace-nowrap px-5 py-3';
                         <button className='border border-border bg-dry flex-rows gap-2 text-border rounded py-1 px-2'>
                             Download <FaCloudDownloadAlt className='text-subMain'/>
                         </button>
-                        <Link to={`${movie?.name}`} className='bg-red-600 text-white rounded flex-colo w-6 h-6'>
+                        <Link to={`/movie/${movie?.name}`} className='bg-red-600 text-white rounded flex-colo w-6 h-6'>
                             <GoEye/>
                         </Link>
                       </>  

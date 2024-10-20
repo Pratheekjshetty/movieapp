@@ -36,7 +36,7 @@ const SideBar = ({children}) => {
     },
     {
         name:"Update Profile",
-        link:"/updateprofile",
+        link:"/profile",
         icon:FiSettings
     },
     {
