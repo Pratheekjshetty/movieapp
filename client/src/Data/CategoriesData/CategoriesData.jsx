@@ -58,13 +58,6 @@ export const CategoriesData =[
 ]
 
 
-
-
-
-
-
-
-
 // import movie1 from '../../Assets/TheFlash.jpg'
 // import movie2 from '../../Assets/SupermanReturns.jpeg'
 // import movie3 from '../../Assets/TheDarkKnight.jpeg'
