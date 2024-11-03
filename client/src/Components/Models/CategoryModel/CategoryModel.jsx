@@ -1,9 +1,10 @@
 import React from 'react'
+import MainModel from '../MainModel/MainModel'
 
-const CategoryModel = () => {
+const CategoryModel = ({modelOpen,setModelOpen,children}) => {
   return (
-    <div>CategoryModel</div>
-  )
+    <MainModel/>
+  )    
 }
 
 export default CategoryModel
